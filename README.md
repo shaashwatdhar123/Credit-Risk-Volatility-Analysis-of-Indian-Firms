@@ -2,10 +2,6 @@
 
 > A comprehensive quantitative finance toolkit implementing industry-standard techniques for market risk measurement, volatility forecasting, portfolio analytics, and derivatives pricing.
 
-![Python](https://img.shields.io/badge/Python-3.11-blue)
-![Finance](https://img.shields.io/badge/Domain-Quantitative%20Finance-success)
-![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
-
 ---
 
 # Overview
