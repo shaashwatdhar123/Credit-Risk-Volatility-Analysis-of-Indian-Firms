@@ -1,73 +1,219 @@
-Market Risk Analytics in Python
-Overview
+# 📈 Market Risk Analytics in Python
 
-Developed a comprehensive market risk analytics toolkit implementing industry-standard quantitative finance techniques used for portfolio risk measurement, volatility forecasting, and derivatives pricing.
+> A comprehensive quantitative finance toolkit implementing industry-standard techniques for market risk measurement, volatility forecasting, portfolio analytics, and derivatives pricing.
 
-The project covers multiple topics commonly applied in investment banks, including volatility modelling, systematic risk estimation, Value at Risk (VaR), option pricing, and Monte Carlo simulation.
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Finance](https://img.shields.io/badge/Domain-Quantitative%20Finance-success)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
 
-Modules
-Market Data
-Historical price retrieval
-Data cleaning
-Log return computation
-Volatility Modelling
-Historical Volatility
-EWMA
-GARCH(1,1)
-EGARCH
-Market Risk
-Historical Value at Risk
-Parametric Value at Risk
-Portfolio Risk Analytics
-Asset Pricing
-CAPM
-Beta Estimation
-Security Market Line
-Derivatives
-Black-Scholes Pricing
-Option Greeks
-Delta Hedging
-Simulation
-Geometric Brownian Motion
-Monte Carlo Option Pricing
-Technologies
-Python
-NumPy
-Pandas
-Matplotlib
-SciPy
-statsmodels
-arch
-py_vollib
-Skills Demonstrated
-Market Risk
-Volatility Modelling
-Portfolio Analytics
-CAPM
-Value at Risk
-Option Pricing
-Monte Carlo Simulation
-Quantitative Finance
-Python
-Topics
-python
+---
 
-market-risk
+# Overview
 
-quantitative-finance
+This project demonstrates the implementation of key quantitative finance models commonly used in investment banks and financial institutions for market risk measurement and portfolio analytics.
 
-value-at-risk
+The notebook combines statistical modelling, financial theory, and numerical methods to analyze equity markets, estimate portfolio risk, model volatility, price derivative securities, and perform simulation-based risk analysis.
 
-garch
+The objective is to build an end-to-end market risk analytics toolkit using Python.
 
-capm
+---
 
-options
+# Project Modules
 
-volatility
+## 1. Market Data Analysis
 
-black-scholes
+- Historical market data collection
+- Data cleaning & preprocessing
+- Log return computation
+- Return visualization
+- Summary statistics
 
-monte-carlo
+---
 
-risk-management
+## 2. Volatility Modelling
+
+Implemented multiple approaches for estimating asset volatility.
+
+### Models
+
+- Historical Volatility
+- Exponentially Weighted Moving Average (EWMA)
+- GARCH(1,1)
+- EGARCH
+
+These models are widely used for volatility forecasting and risk management within financial institutions.
+
+---
+
+## 3. Capital Asset Pricing Model (CAPM)
+
+Estimated systematic risk using CAPM.
+
+Implemented:
+
+- Beta estimation
+- Expected return calculation
+- Security Market Line
+- Market vs Asset return comparison
+
+---
+
+## 4. Value at Risk (VaR)
+
+Implemented industry-standard portfolio risk measures.
+
+### Methods
+
+- Historical Simulation VaR
+- Parametric (Variance-Covariance) VaR
+
+Risk estimates are computed across different confidence levels to measure potential portfolio losses under normal market conditions.
+
+---
+
+## 5. Option Pricing
+
+Implemented the Black-Scholes option pricing framework.
+
+Calculated option prices for:
+
+- European Call Options
+- European Put Options
+
+---
+
+## 6. Option Greeks
+
+Computed the primary option sensitivity measures.
+
+- Delta
+- Gamma
+- Vega
+- Theta
+- Rho
+
+These measures are fundamental for derivatives risk management and hedging strategies.
+
+---
+
+## 7. Monte Carlo Simulation
+
+Simulated asset price paths using Geometric Brownian Motion.
+
+Applications include:
+
+- Stock price simulation
+- Option pricing
+- Scenario analysis
+- Risk estimation
+
+---
+
+# Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- SciPy
+- yfinance
+- statsmodels
+- arch
+- py_vollib
+
+---
+
+# Financial Concepts Covered
+
+- Market Risk
+- Portfolio Analytics
+- Volatility Forecasting
+- Capital Asset Pricing Model (CAPM)
+- Beta Estimation
+- Value at Risk (VaR)
+- Black-Scholes Model
+- Option Greeks
+- Monte Carlo Simulation
+- Quantitative Finance
+
+---
+
+# Key Skills Demonstrated
+
+- Financial Data Analysis
+- Risk Analytics
+- Quantitative Modelling
+- Statistical Analysis
+- Portfolio Risk Measurement
+- Derivatives Analytics
+- Financial Python Programming
+
+---
+
+# Repository Structure
+
+```
+Market-Risk-Analytics/
+│
+├── Market_Risk_Analytics_Python.ipynb
+├── README.md
+├── requirements.txt
+└── images/
+```
+
+---
+
+# Results
+
+The notebook provides:
+
+- Historical return analysis
+- Volatility forecasts
+- CAPM estimation
+- Portfolio Value at Risk calculations
+- Black-Scholes option valuation
+- Option Greeks
+- Monte Carlo simulated price paths
+
+The project demonstrates the practical application of quantitative finance techniques frequently used in market risk, trading, and investment analytics.
+
+---
+
+# Applications
+
+This project is relevant to roles in:
+
+- Market Risk
+- Quantitative Finance
+- Risk Analytics
+- Portfolio Management
+- Treasury
+- Investment Banking
+- Asset Management
+- Financial Engineering
+
+---
+
+# Future Improvements
+
+- Expected Shortfall (CVaR)
+- Stochastic Volatility Models
+- Heston Model
+- Credit Risk Modelling
+- Interest Rate Models
+- Stress Testing Framework
+- Portfolio Optimization Integration
+
+---
+
+# Author
+
+**Shaashwat Dhar**
+
+BITS Pilani, Hyderabad Campus
+
+B.E. Mechanical Engineering & M.Sc. Economics
+
+LinkedIn: https://linkedin.com/in/shaashwat-dhar-084761201
+
+GitHub: https://github.com/shaashwatdhar123
